@@ -4,7 +4,7 @@
 This is an end to end deep learning method Mcformer to utilize the customer clickstream data to predict the user purchase intention.
 
 ## The framework of Mcformer
-图片 (https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/modelframe.png)
+![Framework of Mcformer](https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/modelframe.png)
 
 ## Requirements 
 * sklearn
