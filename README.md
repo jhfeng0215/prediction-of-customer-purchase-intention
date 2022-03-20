@@ -1,7 +1,10 @@
-Mcformer
 
-# prediction-of-customer-purchase-intention
+
+# Mcfromer---The model to predict customer-purchase-intention
 This is an end to end deep learning method Mcformer to utilize the customer clickstream data to predict the user purchase intention.
+
+## The framework of Mcformer
+
 
 ## Requirements 
 * sklearn
