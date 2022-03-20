@@ -1,10 +1,13 @@
 
-
-# Mcfromer---The model to predict customer-purchase-intention
-This is an end to end deep learning method Mcformer to utilize the customer clickstream data to predict the user purchase intention.
+# Mcfromer---The end to end model to predict customer-purchase-intention
+* This is an end to end deep learning method Mcformer to utilize the customer clickstream data to predict the user purchase intention.
+* We aim to utilize the customer clickstream data to predict the customer purchase intention, the scenes as follows:
+* ![question](https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/ques.png)
 
 ## The framework of Mcformer
 ![Framework of Mcformer](https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/modelframe.png)
+* Introduction of Mcformer
+*  In order to deal with multi-dimension clickstream sequence data, we proposed an end-to-end deep learning model, named Multi-channel for purchase transformer (Mcformer), to predict the customers’ purchasing intention. Figure 1 shows the model architecture of Mcformer. This model composed by four parts: embedding layer, multi-transformer layer, cross fusion layer and output layer. Embedding layer is used to embed the sparse one-hot vectors of the behavior data to dense vectors. After that, multi-channels transformer identify intra-information of each sequence. Then the cross fusion layer is applied to identify the inter-information of different sequences. Finally, Mcformer output the result by the multilayer perceptron. 
 
 ## Requirements 
 * sklearn
@@ -21,6 +24,7 @@ python train.py
 ## Data
 Our data is the real world data from  https://tianchi.aliyun.com/dataset/dataDetail?dataId=649, this dataset need to preprocessing, which need long time.
 If you need the data to verify our model, you could contact with us jiahuifeng@ustc.mail.edu.cn
+* ![data](https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/datades.png)
 
 ## modify files to ensure the code work
 And if you want to use your data, you have to provide
@@ -40,6 +44,9 @@ the file location
 
 ### train.py
 if you want to visualize the training process ,you should change parameters.
+
+## The results
+* The result show that Mcformer get great performance in long sequence classification tasks.
 
 
 
