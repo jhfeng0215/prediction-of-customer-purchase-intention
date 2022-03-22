@@ -1,5 +1,5 @@
 
-# Mcfromer---The end to end model to predict customer-purchase-intention
+# Mcformer---An end to end model to predict customer-purchase-intention
 * This is an end to end deep learning method Mcformer to utilize the customer clickstream data to predict the user purchase intention.
 * We aim to utilize the customer clickstream data to predict the customer purchase intention, the scenes as follows:
 * ![question](https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/ques.png)
@@ -47,6 +47,7 @@ if you want to visualize the training process ,you should change parameters.
 
 ## The results
 * The result show that Mcformer get great performance in long sequence classification tasks.
+* The beat parameters in the file named optimizpara, so you can use our best parameters directly.
 
 
 
