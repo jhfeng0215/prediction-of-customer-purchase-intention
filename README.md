@@ -1,7 +1,7 @@
 
 # Mcformer---An end to end model to predict customer-purchase-intention
 
-发明人： Jiahui Feng(冯家辉), Qihang Zhao(赵启航), Hefu Liu(刘和福)
+发明人： Jiahui Feng(冯家辉), Qihang Zhao(赵启航), Hefu Liu(刘和福), Wei Chen(陈伟)
 
 * This algorithm was developed by members of the IOM Lab at the School of Management, USTC
 * This is an end to end deep learning method Mcformer to utilize the customer clickstream data to predict the user purchase intention.
