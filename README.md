@@ -9,7 +9,7 @@
 * ![question](https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/ques.png)
 
 ## The framework of Mcformer
-![Framework of Mcformer](https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/modelframe.png)
+![Framework of Mcformer](https://github.com/jhfeng0215/prediction-of-customer-purchase-intention/blob/main/Mcformer/pictures/mcformer.png)
 * Introduction of Mcformer
 *  In order to deal with multi-dimension clickstream sequence data, we proposed an end-to-end deep learning model, named Multi-channel for purchase transformer (Mcformer), to predict the customers’ purchasing intention. Figure 1 shows the model architecture of Mcformer. This model composed by four parts: embedding layer, multi-transformer layer, cross fusion layer and output layer. Embedding layer is used to embed the sparse one-hot vectors of the behavior data to dense vectors. After that, multi-channels transformer identify intra-information of each sequence. Then the cross fusion layer is applied to identify the inter-information of different sequences. Finally, Mcformer output the result by the multilayer perceptron. 
 
